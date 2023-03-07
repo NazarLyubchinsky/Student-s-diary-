@@ -1,0 +1,188 @@
+.card {
+  flex-direction: row;
+  border: none;
+}
+
+.navbar img {
+  width: 40px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.home .right__title {
+  text-align: center;
+}
+.home .left-title {
+  display: flex;
+  justify-content: center;
+}
+.home .content {
+  display: flex;
+  justify-content: space-between;
+}
+.home .card-text {
+  width: 350px;
+}
+.home .prog__card-text {
+  width: 450px;
+}
+.home .color {
+  width: 100px;
+  color: darkgray;
+}
+.home .card-position1 {
+  margin-left: 169px;
+}
+.home .card-position2 {
+  margin-left: 275px;
+}
+.home .card-position3 {
+  margin-left: 65px;
+}
+.home .q {
+  width: 160%;
+}
+@media screen and (max-width: 992px) {
+  .home .right {
+    display: none;
+  }
+  .home .left {
+    width: 100%;
+  }
+  .home .card-position2 {
+    position: relative;
+    right: 95px;
+  }
+  .home .card-position3 {
+    position: relative;
+    right: 185px;
+  }
+}
+
+.rewards__cols {
+  display: flex;
+  flex-direction: column;
+  gap: 9.2px;
+}
+
+.column {
+  display: flex;
+  margin-top: -1.8px;
+}
+
+.column img {
+  width: 25px;
+  height: 25px;
+}
+
+.homework {
+  font-size: 30px;
+}
+.homework .homework__title {
+  width: 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.homework .center {
+  display: flex;
+  justify-content: space-between;
+}
+.homework .homework__js {
+  margin-top: 150px;
+}
+.homework .homework__current {
+  font-size: 25px;
+}
+.homework .homework__currents {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.homework .current {
+  display: flex;
+  align-items: center;
+}
+.homework .green {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: green;
+}
+.homework .blue {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: blue;
+}
+.homework .purple {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: purple;
+}
+.homework .card-title,
+.homework .card-text {
+  color: #fff;
+  display: flex;
+}
+.homework .card {
+  background-color: blue;
+}
+.homework .btn {
+  border: 1px solid #fff;
+  width: 190px;
+  color: #fff;
+}
+.homework .card__score {
+  font-size: 17px;
+  display: flex;
+  margin-left: 70%;
+  border-radius: 50px;
+  background: rgb(88, 200, 88);
+  padding: 0 7px;
+  align-items: center;
+}
+
+.settings {
+  padding: 0 50px;
+}
+.settings .settings__title {
+  margin: 30px 0;
+  text-align: center;
+}
+.settings form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.settings input {
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.settings input:focus {
+  border-color: #0077ff;
+}
+.settings input[type=submit] {
+  background-color: #fff;
+  border: 1px solid blue;
+  color: blue;
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.settings input[type=submit]:hover {
+  background-color: #0066cc;
+  color: #fff;
+}
